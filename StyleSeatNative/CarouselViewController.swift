@@ -69,14 +69,14 @@ class CarouselViewController: UIViewController, UIScrollViewDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let offset = CGFloat(scrollView.contentOffset.y)
 
-        let contentFade = convertValue(value: offset, r1Min: 0, r1Max: -160, r2Min: 1, r2Max: 0)
+        let contentFade = convertValue(value: offset, r1Min: 0, r1Max: -660, r2Min: 1, r2Max: 0)
         
         scrollContainer.alpha = contentFade
         
         
         // Couple
         
-        if scrollView.contentOffset.y < -160 {
+        if scrollView.contentOffset.y < -180 {
            
             
             dismiss(animated: true, completion: nil)

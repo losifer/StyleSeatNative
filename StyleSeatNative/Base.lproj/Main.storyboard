@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="PQF-EG-dww">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="PQF-EG-dww">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -17,11 +17,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1334"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="EYa-bE-2Mg">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="EYa-bE-2Mg">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="1389"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="Fhj-UJ-fkR">
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="Fhj-UJ-fkR">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="240"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
@@ -33,26 +33,26 @@
                                                     <outletCollection property="gestureRecognizers" destination="Bff-0p-ABJ" appends="YES" id="fLU-zH-Dhn"/>
                                                 </connections>
                                             </imageView>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" image="Screen Shot 2016-11-17 at 2.13.07 PM" id="2zt-0l-6IL">
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="Screen Shot 2016-11-17 at 2.13.07 PM" id="2zt-0l-6IL">
                                                 <rect key="frame" x="375" y="0.0" width="375" height="240"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </imageView>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" image="Screen Shot 2016-11-17 at 2.13.15 PM" id="N45-W4-j3U">
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="Screen Shot 2016-11-17 at 2.13.15 PM" id="N45-W4-j3U">
                                                 <rect key="frame" x="750" y="0.0" width="375" height="240"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </imageView>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" image="Screen Shot 2016-11-17 at 2.13.30 PM" id="oEq-Ug-oWd">
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="Screen Shot 2016-11-17 at 2.13.30 PM" id="oEq-Ug-oWd">
                                                 <rect key="frame" x="1125" y="0.0" width="375" height="240"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </imageView>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" image="Screen Shot 2016-11-17 at 2.13.38 PM" id="u3g-ov-OuC">
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="Screen Shot 2016-11-17 at 2.13.38 PM" id="u3g-ov-OuC">
                                                 <rect key="frame" x="1500" y="0.0" width="375" height="240"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     </scrollView>
-                                    <view contentMode="scaleToFill" misplaced="YES" id="etx-OS-Msr">
+                                    <view contentMode="scaleToFill" id="etx-OS-Msr">
                                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
@@ -108,7 +108,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <view contentMode="scaleToFill" misplaced="YES" id="cdA-ko-bCc">
+                                            <view contentMode="scaleToFill" id="cdA-ko-bCc">
                                                 <rect key="frame" x="41" y="165" width="114" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
@@ -120,23 +120,23 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Star" id="PyO-0i-7Dr">
-                                                        <rect key="frame" x="68" y="6" width="10" height="9.5"/>
+                                                        <rect key="frame" x="68" y="6" width="10" height="10"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                     </imageView>
                                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Star" id="PaC-eh-BR7">
-                                                        <rect key="frame" x="56" y="6" width="10" height="9.5"/>
+                                                        <rect key="frame" x="56" y="6" width="10" height="10"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                     </imageView>
                                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Star" id="dGS-iz-s93">
-                                                        <rect key="frame" x="44" y="6" width="10" height="9.5"/>
+                                                        <rect key="frame" x="44" y="6" width="10" height="10"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                     </imageView>
                                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Star" id="bT9-Za-vZi">
-                                                        <rect key="frame" x="32" y="6" width="10" height="9.5"/>
+                                                        <rect key="frame" x="32" y="6" width="10" height="10"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                     </imageView>
                                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Star" id="dcO-e3-LSI">
-                                                        <rect key="frame" x="20" y="6" width="10" height="9.5"/>
+                                                        <rect key="frame" x="20" y="6" width="10" height="10"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                     </imageView>
                                                 </subviews>
@@ -144,26 +144,26 @@
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </view>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="ServiceList" id="oog-fX-GeS">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="ServiceList" id="oog-fX-GeS">
                                         <rect key="frame" x="0.0" y="386" width="375" height="331"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="Reviews" id="7EY-xX-C3N">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Reviews" id="7EY-xX-C3N">
                                         <rect key="frame" x="15" y="248" width="340" height="1602"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                 </subviews>
                             </scrollView>
-                            <view contentMode="scaleToFill" misplaced="YES" id="OFo-Sj-ZG1">
+                            <view contentMode="scaleToFill" id="OFo-Sj-ZG1">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
                             </view>
-                            <view clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" id="oSg-uE-uDb" userLabel="Card">
+                            <view clipsSubviews="YES" contentMode="scaleToFill" id="oSg-uE-uDb" userLabel="Card">
                                 <rect key="frame" x="17" y="117" width="340" height="400"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <subviews>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" bounces="NO" showsHorizontalScrollIndicator="NO" id="0Pm-tJ-QkJ">
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" id="0Pm-tJ-QkJ">
                                         <rect key="frame" x="-20" y="-20" width="375" height="800"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                         <subviews>
@@ -172,28 +172,28 @@
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bijoux" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aMO-fU-7mJ">
-                                                <rect key="frame" x="163" y="281" width="54.250908758415761" height="21.993611658817201"/>
+                                                <rect key="frame" x="163" y="281" width="54" height="22"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alaine Monson" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0aT-F6-AQY">
-                                                <rect key="frame" x="112" y="256" width="156.15464277760213" height="27.125454379207852"/>
+                                                <rect key="frame" x="112" y="256" width="156" height="27"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stylist" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nai-Qb-yWo">
-                                                <rect key="frame" x="167" y="301" width="46.91970487214337" height="20.527370881562717"/>
+                                                <rect key="frame" x="167" y="301" width="47" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="12"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" id="Xtf-lX-kX0">
-                                                <rect key="frame" x="133" y="320" width="114.36678062584944" height="21.260491270189959"/>
+                                                <rect key="frame" x="133" y="320" width="114" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(3)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="E1M-5u-7Ub">
@@ -204,23 +204,23 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Star" id="1To-xj-gs2">
-                                                        <rect key="frame" x="68" y="6" width="10" height="9.5"/>
+                                                        <rect key="frame" x="68" y="6" width="10" height="10"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                     </imageView>
                                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Star" id="YJy-Qq-Omg">
-                                                        <rect key="frame" x="56" y="6" width="10" height="9.5"/>
+                                                        <rect key="frame" x="56" y="6" width="10" height="10"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                     </imageView>
                                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Star" id="bnK-8c-DPB">
-                                                        <rect key="frame" x="44" y="6" width="10" height="9.5"/>
+                                                        <rect key="frame" x="44" y="6" width="10" height="10"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                     </imageView>
                                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Star" id="tNp-Bm-oKB">
-                                                        <rect key="frame" x="32" y="6" width="10" height="9.5"/>
+                                                        <rect key="frame" x="32" y="6" width="10" height="10"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                     </imageView>
                                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Star" id="IvH-EZ-8VX">
-                                                        <rect key="frame" x="20" y="6" width="10" height="9.5"/>
+                                                        <rect key="frame" x="20" y="6" width="10" height="10"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                     </imageView>
                                                 </subviews>
@@ -321,14 +321,14 @@ San FranciscoCA94108
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bJ3-UY-9od">
-                                                <rect key="frame" x="159" y="346" width="70" height="30"/>
+                                                <rect key="frame" x="156" y="346" width="70" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="11"/>
                                                 <state key="normal" title="MESSAGE"/>
                                             </button>
                                         </subviews>
                                     </scrollView>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ET4-TL-cDq">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ET4-TL-cDq">
                                         <rect key="frame" x="280" y="5" width="39" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Close">
@@ -366,11 +366,11 @@ San FranciscoCA94108
                 <tapGestureRecognizer id="Bff-0p-ABJ">
                     <connections>
                         <action selector="carouselDidTap:" destination="BYZ-38-t0r" id="WGi-w9-qNC"/>
-                        <segue destination="MOI-C5-b3b" kind="modal" modalPresentationStyle="currentContext" modalTransitionStyle="crossDissolve" id="quA-Ez-mjZ"/>
+                        <segue destination="MOI-C5-b3b" kind="modal" modalPresentationStyle="currentContext" modalTransitionStyle="crossDissolve" id="Scf-pn-F4U"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-400.5" y="-815"/>
+            <point key="canvasLocation" x="-400.50000000000006" y="-815"/>
         </scene>
         <!--Carousel View Controller-->
         <scene sceneID="0jp-9w-hyA">
@@ -410,11 +410,11 @@ San FranciscoCA94108
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </imageView>
                                         </subviews>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </scrollView>
                                 </subviews>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5Ta-38-X2X">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5Ta-38-X2X">
                                 <rect key="frame" x="313" y="24" width="39" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Close">
@@ -424,7 +424,7 @@ San FranciscoCA94108
                                     <action selector="dismissButtonDidTap:" destination="MOI-C5-b3b" eventType="touchUpInside" id="12f-gR-l37"/>
                                 </connections>
                             </button>
-                            <pageControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" id="PDJ-xy-Sl3">
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" id="PDJ-xy-Sl3">
                                 <rect key="frame" x="180" y="575" width="39" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </pageControl>
@@ -441,7 +441,7 @@ San FranciscoCA94108
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mxr-bM-CYX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="953.5" y="-814.5"/>
+            <point key="canvasLocation" x="953.50000000000011" y="-814.50000000000011"/>
         </scene>
         <!--Test View Controller-->
         <scene sceneID="fFO-fw-r29">
@@ -451,21 +451,21 @@ San FranciscoCA94108
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceHorizontal="YES" id="utW-Vk-l0a">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceHorizontal="YES" id="utW-Vk-l0a">
                                 <rect key="frame" x="0.0" y="0.0" width="139" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" misplaced="YES" id="IW3-1n-aM9">
+                                    <view contentMode="scaleToFill" id="IW3-1n-aM9">
                                         <rect key="frame" x="0.0" y="0.0" width="139" height="194"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.36838452900000002" green="0.29456419499999997" blue="0.60049901829999996" alpha="1" colorSpace="calibratedRGB"/>
                                     </view>
-                                    <view contentMode="scaleToFill" misplaced="YES" id="K0f-Uk-vY4">
+                                    <view contentMode="scaleToFill" id="K0f-Uk-vY4">
                                         <rect key="frame" x="139" y="0.0" width="139" height="194"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.33775768979999998" green="0.33775768979999998" blue="0.33775768979999998" alpha="1" colorSpace="calibratedRGB"/>
                                     </view>
-                                    <view contentMode="scaleToFill" misplaced="YES" id="Ltz-6V-pO2">
+                                    <view contentMode="scaleToFill" id="Ltz-6V-pO2">
                                         <rect key="frame" x="278" y="0.0" width="139" height="194"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -488,67 +488,67 @@ San FranciscoCA94108
                         <rect key="frame" x="0.0" y="0.0" width="375" height="2588"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" misplaced="YES" id="xuq-3Q-f2q" userLabel="Nav">
+                            <view contentMode="scaleToFill" id="xuq-3Q-f2q" userLabel="Nav">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="DASHBOARD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kD1-73-x9v">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DASHBOARD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kD1-73-x9v">
                                         <rect key="frame" x="32" y="40" width="120" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <view contentMode="scaleToFill" misplaced="YES" id="aLR-RQ-7Ay">
-                                        <rect key="frame" x="0.0" y="97" width="375" height="0.5"/>
+                                    <view contentMode="scaleToFill" id="aLR-RQ-7Ay">
+                                        <rect key="frame" x="0.0" y="97" width="375" height="1"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="HOME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jKA-aH-OPv">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jKA-aH-OPv">
                                         <rect key="frame" x="32" y="132" width="120" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <view contentMode="scaleToFill" misplaced="YES" id="6cP-Jo-sur">
-                                        <rect key="frame" x="0.0" y="189" width="375" height="0.5"/>
+                                    <view contentMode="scaleToFill" id="6cP-Jo-sur">
+                                        <rect key="frame" x="0.0" y="189" width="375" height="1"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="SEARCH" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QJY-vX-Ltq">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SEARCH" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QJY-vX-Ltq">
                                         <rect key="frame" x="32" y="230" width="120" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <view contentMode="scaleToFill" misplaced="YES" id="sjd-ka-e5v">
-                                        <rect key="frame" x="0.0" y="287" width="375" height="0.5"/>
+                                    <view contentMode="scaleToFill" id="sjd-ka-e5v">
+                                        <rect key="frame" x="0.0" y="287" width="375" height="1"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="MY APPOINTMENTS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IAD-Bn-dl0">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MY APPOINTMENTS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IAD-Bn-dl0">
                                         <rect key="frame" x="32" y="324" width="181" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <view contentMode="scaleToFill" misplaced="YES" id="Neh-fv-0U2">
-                                        <rect key="frame" x="0.0" y="381" width="375" height="0.5"/>
+                                    <view contentMode="scaleToFill" id="Neh-fv-0U2">
+                                        <rect key="frame" x="0.0" y="381" width="375" height="1"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="MY ACCOUNT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vYh-PJ-aFe">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MY ACCOUNT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vYh-PJ-aFe">
                                         <rect key="frame" x="32" y="420" width="128" height="24"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <view contentMode="scaleToFill" misplaced="YES" id="QWg-ms-vxQ">
-                                        <rect key="frame" x="0.0" y="477" width="375" height="0.5"/>
+                                    <view contentMode="scaleToFill" id="QWg-ms-vxQ">
+                                        <rect key="frame" x="0.0" y="477" width="375" height="1"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
@@ -558,11 +558,11 @@ San FranciscoCA94108
                                     <outletCollection property="gestureRecognizers" destination="T39-Nk-Dry" appends="YES" id="ZIC-VO-USj"/>
                                 </connections>
                             </view>
-                            <view contentMode="scaleToFill" misplaced="YES" id="e0w-7M-Yv2" userLabel="ScrollViewContainer">
+                            <view contentMode="scaleToFill" id="e0w-7M-Yv2" userLabel="ScrollViewContainer">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="2628"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="are-wi-wcA">
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="are-wi-wcA">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="2588"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
@@ -830,11 +830,11 @@ San FranciscoCA94108
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </view>
-                                            <view contentMode="scaleToFill" misplaced="YES" id="PvY-Kc-uga" userLabel="Overlay">
+                                            <view contentMode="scaleToFill" id="PvY-Kc-uga" userLabel="Overlay">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="g2h-zT-Cri">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="g2h-zT-Cri">
                                                         <rect key="frame" x="140" y="79" width="106" height="30"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
@@ -845,7 +845,7 @@ San FranciscoCA94108
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </view>
-                                            <view contentMode="scaleToFill" misplaced="YES" id="627-1m-Frm" userLabel="searchView">
+                                            <view contentMode="scaleToFill" id="627-1m-Frm" userLabel="searchView">
                                                 <rect key="frame" x="67" y="94" width="260" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
@@ -865,11 +865,11 @@ San FranciscoCA94108
                                             </view>
                                         </subviews>
                                     </scrollView>
-                                    <view contentMode="scaleToFill" misplaced="YES" id="Qki-F4-IGW" userLabel="TopHeader">
+                                    <view contentMode="scaleToFill" id="Qki-F4-IGW" userLabel="TopHeader">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="74"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" misplaced="YES" id="fhm-Dr-mgM" userLabel="stickySearchView">
+                                            <view contentMode="scaleToFill" id="fhm-Dr-mgM" userLabel="stickySearchView">
                                                 <rect key="frame" x="67" y="21" width="260" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
@@ -890,12 +890,12 @@ San FranciscoCA94108
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
-                                    <view contentMode="scaleToFill" misplaced="YES" id="0PI-io-fRI" userLabel="statusBar">
+                                    <view contentMode="scaleToFill" id="0PI-io-fRI" userLabel="statusBar">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
-                                    <view autoresizesSubviews="NO" contentMode="scaleToFill" misplaced="YES" id="0ss-HG-DB5" userLabel="Hamburger">
+                                    <view autoresizesSubviews="NO" contentMode="scaleToFill" id="0ss-HG-DB5" userLabel="Hamburger">
                                         <rect key="frame" x="20" y="20" width="46" height="46"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>

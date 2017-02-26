@@ -16,6 +16,7 @@
 		07CB0E511DDE578500C7797C /* StyleSeatNativeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CB0E501DDE578500C7797C /* StyleSeatNativeUITests.swift */; };
 		07CB0E5F1DDE5C6400C7797C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CB0E5E1DDE5C6400C7797C /* ProfileViewController.swift */; };
 		07CB0E611DDE796C00C7797C /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CB0E601DDE796C00C7797C /* TestViewController.swift */; };
+		3A15D6111DE259FD00B19710 /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A15D6101DE259FD00B19710 /* BaseTransition.swift */; };
 		3AD4AF031DDED3C10042B0F1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD4AF021DDED3C10042B0F1 /* HomeViewController.swift */; };
 		3AD4AF051DDEDF270042B0F1 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD4AF041DDEDF270042B0F1 /* common.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		07CB0E521DDE578500C7797C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07CB0E5E1DDE5C6400C7797C /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		07CB0E601DDE796C00C7797C /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		3A15D6101DE259FD00B19710 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
 		3AD4AF021DDED3C10042B0F1 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3AD4AF041DDEDF270042B0F1 /* common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,6 +110,7 @@
 				07CB0E301DDE578500C7797C /* AppDelegate.swift */,
 				07CB0E341DDE578500C7797C /* Main.storyboard */,
 				3AD4AF041DDEDF270042B0F1 /* common.swift */,
+				3A15D6101DE259FD00B19710 /* BaseTransition.swift */,
 				07CB0E5E1DDE5C6400C7797C /* ProfileViewController.swift */,
 				0741E93E1DDE831B00CC4FD6 /* CarouselViewController.swift */,
 				07CB0E601DDE796C00C7797C /* TestViewController.swift */,
@@ -275,6 +278,7 @@
 				3AD4AF031DDED3C10042B0F1 /* HomeViewController.swift in Sources */,
 				0741E93F1DDE831B00CC4FD6 /* CarouselViewController.swift in Sources */,
 				3AD4AF051DDEDF270042B0F1 /* common.swift in Sources */,
+				3A15D6111DE259FD00B19710 /* BaseTransition.swift in Sources */,
 				07CB0E5F1DDE5C6400C7797C /* ProfileViewController.swift in Sources */,
 				07CB0E611DDE796C00C7797C /* TestViewController.swift in Sources */,
 				07CB0E311DDE578500C7797C /* AppDelegate.swift in Sources */,

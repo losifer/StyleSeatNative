@@ -30,6 +30,7 @@ class ProfileViewController: UIViewController, UIScrollViewDelegate {
         card.isHidden = true
         profileOverlay.layer.opacity = 0
         card.layer.opacity = 0
+        card.layer.cornerRadius = 6
         
         carouselScrollView.delegate = self
         mainScrollView.delegate = self
